@@ -16,8 +16,7 @@
             "oldprice": 2000000,
             "price": 100000,        
             "sailed": false,
-            "urls":[
-
+            "photos": [ {"id": 1, "img": "secret1"}, {"id": 2, "img": "secret2"}, {"id": 3, "img": "secret3"}
             ]
         },
         {
@@ -26,8 +25,7 @@
             "oldprice": 0,
             "price": 100000,        
             "sailed": false,
-            "urls":[
-                
+            "photos": [ {"id": 1, "img": "adam1"}, {"id": 2, "img": "adam2"}, {"id": 3, "img": "adam3"}
             ]
         },
         {
@@ -36,8 +34,7 @@
             "oldprice": 2000000,
             "price": 100000,
             "sailed": true,
-            "urls":[
-                
+            "photos": [ {"id": 1, "img": "lesson1"}, {"id": 2, "img": "lesson2"}
             ]
         }
     ]

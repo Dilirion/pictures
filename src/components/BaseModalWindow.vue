@@ -14,7 +14,7 @@
                     <!-- image slider -->
                     <div class="d-flex flex-coloumn align-items-center" style="width:500px">
                         <transition-group class='d-flex justify-content-center align-items-center overflow-hidden' 
-                            style="width: 24em, min-height: 25em;" tag="div">  
+                             tag="div">  
                             <div class="slide" v-for="photo in picture.photos" :key="photo.id">                                  
                                 <img  :src="require( `../assets/img/${photo.img}.jpg`)" 
                                     :alt="picture.title">                        
@@ -57,6 +57,7 @@ export default {
         next () {
             const first = this.picture.photos.shift()
             this.picture.photos = this.picture.photos.concat(first)
+            console.log(this.picture.photos)
         },
         previous () {
             const last = this.picture.photos.pop()
