@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+$body-bg: #F6F3F3;
+$btn-border-radius: 0px;
+$btn-close-focus-shadow: 0px;
+
+.myh1 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    font-family: 'Merriweather', serif;
+}
+.myh2 {
+    font-size: 18px;
+    line-height: 27px;    
+    font-family: 'Merriweather', serif;
+}
+.myh3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;    
+    font-family: 'Merriweather', serif;
+}
+.myh4 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 21px;
+    font-family: 'Merriweather', serif;
+}
+.myh5 {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Merriweather', serif;
+}
+.myh6 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    font-family: 'Merriweather', serif;
+    text-decoration: line-through;
+}
+
+
+$theme-colors: (
+  "brown": #403432,
+  "gray": #E1E1E1,
+  "black-brown": #343030,
+  "white": #FFFFFF,
+  "light": #A0A0A0,
+  "darkgray": #555555,
+  "background-color": $body-bg
+);
+
+
+@import 'node_modules/bootstrap/scss/bootstrap';

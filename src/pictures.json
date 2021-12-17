@@ -1,0 +1,44 @@
+{ 
+    "data": [
+        {
+            "title": "Рождение Венеры",
+            "author": "Сандро Боттичелли",
+            "description": "«Рождение Венеры» (итал. Nascita di Venere) — картина итальянского художника тосканской школы Сандро Боттичелли.",
+            "oldprice": 2000000,
+            "price": 100000,
+            "sailed": false,
+            "photos": [ {"id": 1, "img": "venera1"}, {"id": 2, "img": "venera2"}, {"id": 3, "img": "venera3"}
+            ]
+        },
+        {
+            "title": "Тайная вечеря",
+            "author": "Леонардо да Винчи",
+            "oldprice": 2000000,
+            "price": 100000,        
+            "sailed": false,
+            "urls":[
+
+            ]
+        },
+        {
+            "title": "Сотворение Адама",
+            "author": "Микелянджело",
+            "oldprice": 0,
+            "price": 100000,        
+            "sailed": false,
+            "urls":[
+                
+            ]
+        },
+        {
+            "title": "Урок анатомии",
+            "author": "Рембрандт",
+            "oldprice": 2000000,
+            "price": 100000,
+            "sailed": true,
+            "urls":[
+                
+            ]
+        }
+    ]
+}
